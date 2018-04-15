@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+
+.header {
+  height: 250px;
+  width: 100%;
+  background-image: url("https://images.pond5.com/multi-country-waving-flag-footage-012387407_prevstill.jpeg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header h1 {
+  color: black;
+  font-size: 70px;
+}
+
+.searching {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.searching #search {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.searching #country-name {
+  margin-top: 10px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+}
+.searching h2 {
+  margin-top: 50px;
+  font-size: 33px;
+}
+.searching #countries {
+  margin: 0;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

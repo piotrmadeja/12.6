@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+
+.header {
+  height: 250px;
+  width: 100%;
+  background-image: url('https://images.pond5.com/multi-country-waving-flag-footage-012387407_prevstill.jpeg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: black;;
+    font-size: 70px;
+  }
+}
+
+.searching {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #search {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #country-name {
+    margin-top: 10px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+  }
+  h2 {
+  margin-top: 50px;
+  font-size: 33px;
+  }
+  #countries {
+      margin: 0;
+      font-size: 20px;
+  }
+}
