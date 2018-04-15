@@ -1,1 +1,1 @@
-# 12.6
+https://piotrmadeja.github.io/12.6/. 
